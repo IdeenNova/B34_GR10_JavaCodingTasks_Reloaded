@@ -8,7 +8,7 @@ public class findUnique {
     public static void main(String[] args) {
         System.out.println(finUnique("AAABBBCCCDEF"));
         System.out.println(finUnique2("AAABBBCCCDEF"));
-
+        System.out.println(trimDuplicated("AAABBBCCCDEF"));//off-topic practice
     }
 
 
@@ -19,8 +19,7 @@ public class findUnique {
             if (str.indexOf(each) == str.lastIndexOf(each)) {
                 unique += each;
             }
-            for (char c : charArray) {
-            }
+
         }
         return unique;
     }
@@ -39,6 +38,20 @@ public class findUnique {
     }
 
 
+/////// off-topic practice
+    public static String trimDuplicated(String str){
+        String trimmedStr = "";
+
+        for (int i = 0; i < str.length(); i++) {
+            String character = ""+str.charAt(i);
+            if(trimmedStr.contains(character)){
+                continue;
+            }
+            trimmedStr+=character;
+        }
+        return trimmedStr;
+
+    }
 
 
 
