@@ -6,7 +6,7 @@ public class FindMaximum {
 
     public static void main(String[] args) {
         // Example usage:
-        int[] array = {3, 9, 1, 7, 4, 6};
+        int[] array = {5, 9, 1, 7, 4, 6};
         int maximum = findMaximum(array);
         System.out.println("Maximum number in the array: " + maximum);
     }
