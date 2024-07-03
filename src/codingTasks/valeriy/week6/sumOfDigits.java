@@ -6,6 +6,8 @@ public class sumOfDigits {
 
     public static void main(String[] args) {
         System.out.println(sumOfDigitsInString("qwer1235qwe"));
+
+
     }
 
 
