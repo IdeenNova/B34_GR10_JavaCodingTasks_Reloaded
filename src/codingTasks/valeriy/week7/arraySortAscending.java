@@ -10,16 +10,10 @@ arr = Sort(arr); ==>{ 7, 8, 9, 10};*/
 
     public static void main(String[] args) {
 
-        int[] arr = {10, 9, 8, 7, 11, 5, 15};
-
+        int[] arr = {10, 9, 8, 7, 11, 5, 15, 1};
         System.out.println(Arrays.toString(sortingIntOrderOfArray(arr))); //testing solution #1
-
         System.out.println(Arrays.toString(sortingIntOrderOfArray2(arr))); //testing solution #2
-
-
     }
-
-
     //solution #1
     public static int[] sortingIntOrderOfArray(int[] nonSortedArray){
 
@@ -33,10 +27,8 @@ arr = Sort(arr); ==>{ 7, 8, 9, 10};*/
                }
            }
         }
-
         return  nonSortedArray;
     }
-
 
 //solution #2
     public static int[] sortingIntOrderOfArray2(int[] arr){
