@@ -6,7 +6,7 @@ import java.util.Map;
 public class MapFrequencyOFCharacters {
   //  Write a method that prints the frequency of each character from a String.
   public static void printCharacterFrequency(String input) {
-      // Create a HashMap to store the frequency of each character
+      //  Create a HashMap to store the frequency of each character
       Map<Character, Integer> frequencyMap = new HashMap<>();
 
       // Convert the input string to a character array
