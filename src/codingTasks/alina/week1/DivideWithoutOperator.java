@@ -1,10 +1,10 @@
 package codingTasks.alina.week1;
 
+
 public class DivideWithoutOperator {
 
     public static void main(String[] args) {
         System.out.println(divisionWithoutOperator(18,6));
-
 
     }
 
