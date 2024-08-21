@@ -7,7 +7,7 @@ public class MapMinValue {
     //Write a method that can return the minimum value from a map (DO NOT use sort method)
 
     public static int findMinValue(Map<String, Integer> map) {
-        // Initialize a variable to store minimum value, starting with the maximum possible integer value
+        // Initialize a variable to store the minimum value, starting with the maximum possible integer value
         int minValue = Integer.MAX_VALUE;
 
         // Iterate over the values in the map
